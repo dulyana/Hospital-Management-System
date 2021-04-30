@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Blink</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+        <link href="homee.css" rel="stylesheet" type="text/css"/>
+
+
+        
+    </head>
+    <body>
+        <img src="home.jpeg">
+        <!-- navigation bar -->
+        <header>
+            
+            <div class="container">
+                <a href="#" class="logo"><span>H</span>ealth<span>W</span>ave.</a>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <div class="dropdown">
+    <button class="dropbtn">Login 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="login.html">Patient login </a>
+      <a href="loginadmin.html">Admin login </a>
+      <a href="receplogin.html">Receptionist login </a>
+      <a href="logindoc.html">Doctor login </a>
+      
+      </div>                
+                <!--  <div class="dropdown">
+    <button class="dropbtn">Admin 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#Add Doctor">My profile </a>
+      <a href="#Doctor List">Log out </a>
+      
+    </div>-->
+  </div> 
+                    </ul>
+                <!--    <div class="center">
+                        <button onclick="document.location='login.html'">Login</button>
+                    </div>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+         end of navigation bar 
+        
+         login forum 
+        <div class="popup-overlay"></div>
+        <div class="popup">
+          <div class="popup-close" onclick="closeLoginForm()">&times;</div>
+          <div class="form">
+            <div class="avatar">
+
+              <img src="image/login.png" alt=""/>
+            </div>
+            <div class="header">
+              Patient login
+            </div>
+            <div class="element">
+              <label for="username">Username</label>
+              <input type="text" id="username">
+            </div>
+            <div class="element">
+              <label for="password">Password</label>
+              <input type="password" id="password">
+            </div>
+            <div class="element">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+        <!-- end of login forum -->
+        
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="jquery/main.js" type="text/javascript"></script>
+        
+        
+    </body>
+</html>
