@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="inner-layer">
+  <div class="form-data">
+       <div class="form-head">
+<h1>Admin Login Form</h1>
+</div>
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+   <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>User name</b></label>
+    <input type="text" placeholder="Enter Username" name="name" required>
+<br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+     <br><br>  
+    <button type="submit"  class="loginbtn" onclick="document.location='home.html'">Login</button>
+    <label>
+      <br><br> 
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  
+
+  
+    <button type="button" class="cancelbtn">Cancel</button>
+    Forgot <a href="#">password?</a>
+  
+
+   <div class="container1" style="background-color:#f1f1f1">
+    Don't have account
+    <button type="button" class="signbtn" onclick="document.location='signupadmin.html'">Sign Up</button>
+    
+  </div>
+</form>
+</div>
+    
+</body>
+
+</html>
